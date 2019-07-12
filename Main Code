@@ -1,0 +1,59 @@
+void setup() {
+  // initialise digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+
+  // One Unit is 500 milliseconds
+  // Letter S :
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(500);                        // wait for half a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off (LOW is the voltage level)
+  delay(500);                        // wait for half a second
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(500);                        // wait for half a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off (LOW is the voltage level)
+  delay(500);                        // wait for half a second
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(500);                        // wait for half a second
+  
+  //Wait for next letter
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off (LOW is the voltage level)
+  delay(1500);                       // wait for 1.5 seconds
+
+  
+  // Letter O
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1500);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(500);
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1500);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(500);
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1500);
+  
+
+  //Wait for next letter
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off (LOW is the voltage level)
+  delay(1500);                       // wait for 1.5 seconds
+
+  // Letter S :
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(500);                        // wait for half a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off (LOW is the voltage level)
+  delay(500);                        // wait for half a second
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(500);                        // wait for half a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off (LOW is the voltage level)
+  delay(500);                        // wait for half a second
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(500);                        // wait for half a second
+
+  // Reset for another round of SOS
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off (LOW is the voltage level)
+  delay(3500);  
+  
+}
